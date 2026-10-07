@@ -62,7 +62,7 @@ $$\text{Location} \in [0, d]$$
      * **Quark Kinetic Energy Transfer:** The incoming lepton transfers its kinetic energy ($\frac{p_e^2}{2m_e}$) into non-directional kinetic motion of target composite quark clusters (nuclei), elevating waste thermal energy ($T_C$) rather than driving electrical current[cite: 6].
 
   2. **Lepton–Lepton Interactions ($e^- \xrightarrow{\gamma^*} e^-$):**
-     * **Multi-Lepton Collision & Ejection:** The incoming lepton transfers sufficient momentum to a target lepton within the material, ejecting a secondary lepton back into the vacuum gap ($e^-_{\text{inc}} + e^-_{\text{tgt}} \to e^-_{\text{scat}} + e^-_{\text{ejct}}$).
+     * **Multi-Lepton Collision & Ejection:** The incoming lepton transfers sufficient momentum to a target lepton within the material, ejecting a secondary lepton back into the vacuum gap: $e^-$<sub>incoming</sub> + $e^-$<sub>target</sub> $\to$ $e^-$<sub>scattered</sub> + $e^-$<sub>ejected</sub>.
      * **Inelastic Lepton Kinetic Dissipation:** Elastic and inelastic momentum exchange between the incoming lepton and surrounding target leptons thermalizes the incoming particle's kinetic energy into random microstate motion prior to directional charge capture.
 ---
 
