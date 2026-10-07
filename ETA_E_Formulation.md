@@ -10,7 +10,7 @@ If an emitted electron fails to deposit its charge and kinetic energy into the c
 
 ## The Fundamental Interaction Equation
 
-At the microscopic particle level, every efficiency loss mechanism that penalizes $\eta_e$ can be generalized as a fundamental scattering or interaction event:
+At the microscopic particle level, most efficiency loss mechanisms that penalize $\eta_e$ can be generalized as a fundamental scattering or interaction event:
 
 $$e^- \overset{X}{\longrightarrow} \theta$$
 
