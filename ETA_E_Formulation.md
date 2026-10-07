@@ -47,16 +47,23 @@ $$\text{Location} \in [0, d]$$
 * **Kinetic Outcome:** The interaction shifts the momentum vector $\vec{p}_e$ of the electron. If forward momentum is inverted or deflected beyond the geometric view factor, the electron is repelled back to the emitter or escapes the boundary without contacting the collector.
 
 ---
-
 ### 2. Collector Surface Non-Absorption ($\text{Location} = d$)
 
-* **Mechanism:**
-  * $e^- \xrightarrow{\gamma^*} q$ *(Lepton–Quark interaction via virtual photons)*
-* **Physical Process:** Upon striking the collector anode, the incoming lepton interacts electromagnetically with positive charge centers (up/down quarks inside atomic nuclei) forming the material lattice.
-* **Kinetic Outcome:** Instead of transitioning into the conduction band to generate usable electrical work ($J_{\text{th}} \cdot V_{\text{ext}}$), one of two non-electrical channels occurs:
-  1. **Quantum Backscattering:** The electron undergoes elastic/inelastic reflection off the nuclear lattice, deflecting along a new outward directional vector back into the inter-electrode gap.
-  2. **Thermal Kinetic Dissipation:** The electron transfers its kinetic energy ($\frac{p_e^2}{2m_e}$) directly into non-directional kinetic motion of target nuclei, elevating the collector's thermal state ($T_C$) as waste heat rather than driving electrical power.
+* **Mechanisms:**
+  * $e^- \xrightarrow{\gamma^*} q$ *(Lepton–Quark interaction via virtual photons)*[cite: 6]
+  * $e^- \xrightarrow{\gamma^*} e^-$ *(Lepton–Lepton interaction via virtual photons)*
 
+* **Physical Process:** Upon striking the collector anode, the incoming lepton ($e^-$) interacts electromagnetically with the fundamental constituent particles of the target material: positive charge centers (up/down quarks bound within atomic nuclei)[cite: 6] and bound/conduction leptons (electrons residing within the target's atomic shell and conduction states).
+
+* **Kinetic Outcome:** Instead of transitioning into stable, directional conduction states to drive net electrical work ($J_{\text{th}} \cdot V_{\text{ext}}$)[cite: 6], non-electrical loss channels occur across both fundamental particle targets:
+
+  1. **Lepton–Quark Interactions ($e^- \xrightarrow{\gamma^*} q$):**[cite: 6]
+     * **Elastic/Inelastic Quark Backscattering:** The incoming lepton scatters off the composite quark potential field, deflecting along a reversed outward vector back into the inter-electrode gap[cite: 6].
+     * **Quark Kinetic Energy Transfer:** The incoming lepton transfers its kinetic energy ($\frac{p_e^2}{2m_e}$) into non-directional kinetic motion of target composite quark clusters (nuclei), elevating waste thermal energy ($T_C$) rather than driving electrical current[cite: 6].
+
+  2. **Lepton–Lepton Interactions ($e^- \xrightarrow{\gamma^*} e^-$):**
+     * **Multi-Lepton Collision & Ejection:** The incoming lepton transfers sufficient momentum to a target lepton within the material, ejecting a secondary lepton back into the vacuum gap ($e^-_{\text{inc}} + e^-_{\text{tgt}} \to e^-_{\text{scat}} + e^-_{\text{ejct}}$).
+     * **Inelastic Lepton Kinetic Dissipation:** Elastic and inelastic momentum exchange between the incoming lepton and surrounding target leptons thermalizes the incoming particle's kinetic energy into random microstate motion prior to directional charge capture.
 ---
 
 ## The Golden Rule of $\eta_e$
