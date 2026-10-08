@@ -1,0 +1,144 @@
+================================================================================
+MICROSCOPIC & QUANTUM KINETIC FORMULATION OF ELECTRONIC EFFICIENCY (ETA_E)
+COMPLETE SUMMARY OF INTERACTION PROCESSES & FEYNMAN DIAGRAMS
+================================================================================
+
+I. IN-GAP DEFLECTION MECHANISMS (0 < Location < d)
+
+1. Lepton–Lepton In-Gap Interaction (e⁻ ──γ*──> e⁻) [Møller Scattering]
+--------------------------------------------------------------------------------
+Physical Process: Electromagnetic Coulomb repulsion between an incoming 
+thermionic electron and another electron in the space-charge cloud via a 
+virtual photon (γ*).
+Kinetic Outcome: Inverts or deflects forward momentum vector, repelling the 
+electron back toward the emitter or out of bounds, reducing eta_e.
+
+Feynman Diagram:
+
+  e⁻ (incoming) \               / e⁻ (scattered / deflected)
+                 \  γ* (virtual) \
+                  ~~~~~~~~~~~~~~~
+                 /               \
+  e⁻ (in-gap)   /                 \ e⁻ (repelled space-charge e⁻)
+
+
+2. Lepton–Boson In-Gap Interaction (e⁻ ──∅──> γ) [Compton / Thomson Scattering]
+--------------------------------------------------------------------------------
+Physical Process: Direct kinetic scattering between an incoming thermionic 
+electron and a real photon (γ) traversing the radiative thermal flux gap.
+Kinetic Outcome: Shifts the electron momentum vector pe beyond the geometric 
+acceptance window, preventing it from contacting the collector.
+
+Feynman Diagram:
+
+  e⁻ (incoming) \               / e⁻ (scattered)
+                 \  e⁻ (virtual) \
+                  \               /
+                   \_____________ /
+                   /             \
+  γ (real photon) ~~~~~~~~~~~~~~~~ γ (scattered photon)
+
+
+================================================================================
+II. COLLECTOR SURFACE NON-ABSORPTION (Location = d)
+
+3. Lepton–Quark Interaction: Backscattering (e⁻ ──γ*──> q) [Flies Away]
+--------------------------------------------------------------------------------
+Physical Process: The incoming electron exchanges a virtual photon (γ*) with a 
+single bound valence quark (q) inside a target nucleon (proton/neutron) within 
+a collector nucleus and retains enough energy to scatter back into the gap.
+Kinetic Outcome: Electron backscatters back into the vacuum gap, failing to deliver 
+usable current J_th * V_ext and reducing eta_e.
+
+Feynman Diagram:
+
+  e⁻ (incident) \               / e⁻ (backscattered / flies away)
+                 \  γ* (virtual) \
+                  ~~~~~~~~~~~~~~~
+                 /               \
+  q (bound)     /                 \ q' (recoiled bound quark in nucleus)
+
+
+4. Lepton–Quark Interaction: Kinetic Energy Transfer (e⁻ ──γ*──> q) [Gets Stuck]
+--------------------------------------------------------------------------------
+Physical Process: Electromagnetic coupling to nuclear bound quarks (q) converts 
+the electron's kinetic energy (p_e^2 / 2m_e) into nuclear recoil and lattice 
+vibrations (phonons/TC).
+Kinetic Outcome: Continuous deceleration against nuclear potential fields causes 
+the electron to lose escape momentum and drop into a bound/conduction state.
+
+Feynman Diagram (Microscopic Multi-Vertex Cascade View):
+
+  e⁻ (incident) ───●───────────●───────────●───═══ e⁻ (stuck / bound in lattice)
+                   │           │           │
+                   │ γ*        │ γ*        │ γ*
+                   │           │           │
+                 q_1         q_2         q_3   (bound quarks in nuclei)
+                   │           │           │
+                   ▼           ▼           ▼
+              [Lattice Vibration / Phonon Generation → Waste Heat TC]
+
+
+5. Lepton–Lepton Interaction: Secondary Ejection (e⁻ ──γ*──> e⁻) [Flies Away]
+--------------------------------------------------------------------------------
+Physical Process: The incoming electron strikes a target electron in the 
+collector via γ*, transferring enough momentum to eject a secondary electron 
+into the vacuum gap while scattering out itself.
+Kinetic Outcome: Multi-lepton collision and ejection results in charge loss to 
+the inter-electrode gap, penalizing eta_e.
+
+Feynman Diagram:
+
+  e⁻ (incident) \               / e⁻ (scattered / flies away)
+                 \  γ* (virtual) \
+                  ~~~~~~~~~~~~~~~
+                 /               \
+  e⁻ (target)   /                 \ e⁻ (ejected secondary e⁻)
+
+
+6. Lepton–Lepton Interaction: Thermalization (e⁻ ──γ*──> e⁻) [Gets Stuck]
+--------------------------------------------------------------------------------
+Physical Process: Cascading soft electromagnetic collisions with conduction 
+electrons (e⁻_1, e⁻_2, e⁻_3) thermalize the electron's kinetic energy into 
+the collector's Fermi sea.
+Kinetic Outcome: Momentum is randomized and energy is dissipated via plasmon/
+electron-hole pair generation, trapping the electron as usable charge carrier.
+
+Feynman Diagram (Microscopic Multi-Vertex Cascade View):
+
+  e⁻ (incident) ───●───────────●───────────●───═══ e⁻ (stuck / Fermi sea)
+                   │           │           │
+                   │ γ*        │ γ*        │ γ*
+                   │           │           │
+                 e⁻_1        e⁻_2        e⁻_3  (conduction electron sea)
+                   │           │           │
+                   ▼           ▼           ▼
+             [Plasmons / Electron-Hole Pair Generation → Thermalization]
+
+
+================================================================================
+III. KEY PHYSICAL INSIGHTS & REGIME ANALYSIS
+
+1. Single Nucleus vs. Multiple Nuclei Absorption:
+   • Single Nucleus (Intra-Nuclear Cascade): Occurs during initial impact where an 
+     electron undergoes multiple soft scatterings (γ*) off bound quarks inside 
+     the same heavy nucleus.
+   • Multiple Nuclei (Inter-Nuclear Track): Occurs as the electron penetrates 
+     the collector lattice, sequentially interacting with bound quarks across 
+     adjacent nuclei along its stopping path until its kinetic energy is completely 
+     dissipated into phonons (TC). Both channels operate simultaneously.
+
+2. Single Interaction Absorption (1-Step Capture):
+   • While capture is typically a multi-collision cascade, an electron CAN get 
+     stuck in a single interaction if the energy transfer ΔE ≈ Ek drops its 
+     remaining momentum below the material's surface work function in one step.
+
+3. Initial Kinetic Energy Regimes:
+   • Low Kinetic Energy (Ek ≈ few eV, thermal emission): Single-interaction or 
+     few-step capture dominates because the electron carries minimal initial 
+     momentum, making it lose its escape velocity almost instantaneously.
+   • Higher Kinetic Energy (Ek >> few eV, accelerated potential): Multi-step 
+     cascade dominance occurs because high-velocity electrons penetrate deeper, 
+     requiring a chain of successive electromagnetic collisions across the 
+     electron sea and nuclear lattice to fully thermalize.
+================================================================================
