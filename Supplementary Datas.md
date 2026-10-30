@@ -89,20 +89,12 @@ $J_{\text{back}} = A_R T_C^2 \exp\left(-\frac{\phi_C}{k_B T_C}\right)$[cite: 7]
 
 ---
 
-## 5. Comparative Operational Parameters: Near-Field vs. Far-Field
+## 5. Operational Regime Implementation Factors (Near-Field vs. Far-Field)
 
-* **Near-Field Regime ($d = 100\text{ nm}$):**
-  * Spatial factor ($h(d)$): $219.48$[cite: 6]
-  * Radiative power ($P_{\text{rad}}$): $5,830.05\text{ W/cm}^2$[cite: 7]
-  * Total electrical power density ($P_{\text{elec}}$): $5,024.06\text{ W/cm}^2$[cite: 7]
-  * Thermal energy extraction rate: High-density drain ($\sim 10^4\text{ W/cm}^2$) requiring active emitter power input balancing ($\Delta E \ge q_{\text{rad}}$)[cite: 7].
-  * Mechanical gap tolerance: Sub-micron ($100\text{ nm}$), requiring active piezo-actuated suspension[cite: 3].
-
-* **Far-Field Regime ($d = 1.0\text{ cm}$):**
-  * Spatial factor ($h(d)$): $1.00$[cite: 6]
-  * Radiative power ($P_{\text{rad}}$): $26.56\text{ W/cm}^2$[cite: 6]
-  * Total electrical power density ($P_{\text{elec}}$): $91.09\text{ W/cm}^2$ ($\approx 9.11 \times 10^5\text{ W/m}^2$)[cite: 7]
-  * Thermal energy extraction rate: Standard macroscopic thermal dissipation ($\sim 10^2\text{ W/cm}^2$)[cite: 7].
-  * Mechanical gap tolerance: Macroscopic ($1\text{ cm}$), avoiding sub-micron shorting and thermal expansion collision risks[cite: 7].
+* **Near-Field Energy Density Advantage:** $5024.06\text{ W/cm}^2$ ($55.15\times$ far-field baseline at $100\text{ nm}$)[cite: 7].
+* **Primary Engineering Constraints for Near-Field Deployment:**
+  * **Micro-Gap Thermal Expansion Stability:** Requires active piezo-actuated suspension systems to maintain nanometer-to-micrometer inter-electrode gaps under severe thermal expansion gradients.
+  * **Thermal Equilibrium & Core Maintenance:** High-intensity near-field extraction requires active source-power compensation ($\Delta E \ge q_{\text{rad}}$) to prevent thermal collapse in sensitive operational nodes[cite: 6, 7].
+* **Far-Field Operational Preference:** Preferred in macroscopic high-temperature domains (such as magnetic confinement fusion, hypersonic leading edges, and nuclear thermal propulsion) to avoid sub-micron gap mechanical failure and unmanaged core thermal disruption[cite: 3, 6, 7].
 
 
