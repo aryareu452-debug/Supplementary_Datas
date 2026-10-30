@@ -86,3 +86,14 @@ $J_{\text{back}} = A_R T_C^2 \exp\left(-\frac{\phi_C}{k_B T_C}\right)$[cite: 7]
 | **$600\text{ K}$** | $50.888\text{ A/cm}^2$ | $1.09 \times 10^{-5}\text{ A/cm}^2$ | $50.888\text{ A/cm}^2$ | $0.00\%$ |
 | **$800\text{ K}$** | $50.888\text{ A/cm}^2$ | $0.027\text{ A/cm}^2$ | $50.861\text{ A/cm}^2$ | $0.05\%$ |
 | **$1000\text{ K}$** | $50.888\text{ A/cm}^2$ | $3.319\text{ A/cm}^2$ | $47.569\text{ A/cm}^2$ | $6.52\%$ |
+
+---
+
+## 5. Comparative Operational Energy Density Context
+
+* **Far-Field Harvesting Output ($d \approx 1\text{ cm}$):** $91.09\text{ W/cm}^2$ ($\approx 9.11 \times 10^5\text{ W/m}^2$)[cite: 7]
+* **Near-Field Harvesting Output ($d = 100\text{ nm}$):** $5024.06\text{ W/cm}^2$ ($\approx 5.02 \times 10^7\text{ W/m}^2$)[cite: 7]
+* **Comparative Yield Ratio:** Near-field power density exceeds far-field output by a factor of $55.15\times$[cite: 7].
+* **Systemic Deployment Distribution:** Despite the higher energy density achievable via near-field photon tunneling, far-field architectures are utilized across the primary operational domains (fusion, hypersonics, nuclear thermal propulsion, and advanced crystal growth)[cite: 7].
+
+
