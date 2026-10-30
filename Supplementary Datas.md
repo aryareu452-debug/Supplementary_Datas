@@ -89,11 +89,20 @@ $J_{\text{back}} = A_R T_C^2 \exp\left(-\frac{\phi_C}{k_B T_C}\right)$[cite: 7]
 
 ---
 
-## 5. Comparative Operational Energy Density Context
+## 5. Comparative Operational Parameters: Near-Field vs. Far-Field
 
-* **Far-Field Harvesting Output ($d \approx 1\text{ cm}$):** $91.09\text{ W/cm}^2$ ($\approx 9.11 \times 10^5\text{ W/m}^2$)[cite: 7]
-* **Near-Field Harvesting Output ($d = 100\text{ nm}$):** $5024.06\text{ W/cm}^2$ ($\approx 5.02 \times 10^7\text{ W/m}^2$)[cite: 7]
-* **Comparative Yield Ratio:** Near-field power density exceeds far-field output by a factor of $55.15\times$[cite: 7].
-* **Systemic Deployment Distribution:** Despite the higher energy density achievable via near-field photon tunneling, far-field architectures are utilized across the primary operational domains (fusion, hypersonics, nuclear thermal propulsion, and advanced crystal growth)[cite: 7].
+* **Near-Field Regime ($d = 100\text{ nm}$):**
+  * Spatial factor ($h(d)$): $219.48$[cite: 6]
+  * Radiative power ($P_{\text{rad}}$): $5,830.05\text{ W/cm}^2$[cite: 7]
+  * Total electrical power density ($P_{\text{elec}}$): $5,024.06\text{ W/cm}^2$[cite: 7]
+  * Thermal energy extraction rate: High-density drain ($\sim 10^4\text{ W/cm}^2$) requiring active emitter power input balancing ($\Delta E \ge q_{\text{rad}}$)[cite: 7].
+  * Mechanical gap tolerance: Sub-micron ($100\text{ nm}$), requiring active piezo-actuated suspension[cite: 3].
+
+* **Far-Field Regime ($d = 1.0\text{ cm}$):**
+  * Spatial factor ($h(d)$): $1.00$[cite: 6]
+  * Radiative power ($P_{\text{rad}}$): $26.56\text{ W/cm}^2$[cite: 6]
+  * Total electrical power density ($P_{\text{elec}}$): $91.09\text{ W/cm}^2$ ($\approx 9.11 \times 10^5\text{ W/m}^2$)[cite: 7]
+  * Thermal energy extraction rate: Standard macroscopic thermal dissipation ($\sim 10^2\text{ W/cm}^2$)[cite: 7].
+  * Mechanical gap tolerance: Macroscopic ($1\text{ cm}$), avoiding sub-micron shorting and thermal expansion collision risks[cite: 7].
 
 
